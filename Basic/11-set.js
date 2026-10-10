@@ -52,6 +52,10 @@ console.log(myArray)
 mySet = new Set(myArray)
 console.log(mySet)
 
+// Convertir un Set a Array
+let mySet2 = new Set(["Alcanó", "Alcanó", "Hola"])
+let myArray2 = [...mySet2]
+console.log(myArray2)
 // No admite duplicados
 
 mySet.add("braismoure@mouredev.com")
